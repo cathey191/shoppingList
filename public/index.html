@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>Shopping List</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<nav>
+			<div class="contentNav">
+				<a href="index">Products</a>
+				<a href="basket">My Basket</a>
+			</div>
+		</nav>
+		<div class="container">
+			<h1>Shopping List</h1>
+			<br>
+			<hr>
+			<form class="filter"  method="post">
+				<label for="stock">Currently In Stock:</label><br>
+				<input type="radio" name="stock" value="allProducts"> All Products <br>
+				<input type="radio" name="stock" value="inStock"> In Stock <br>
+				<input type="radio" name="stock" value="outStock"> Out of Stock <br>
+				<input type="submit" name="submit" value="submit">
+			</form>
+		</div>
+
+		<script src="js/script.js"></script>
+	</body>
+</html>

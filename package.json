@@ -1,0 +1,20 @@
+{
+	"name": "shoppinglist",
+	"version": "0.0.1",
+	"description": "Shopping list made using a node server",
+	"main": "index.js",
+	"scripts": {
+		"dev:server": "nodemon -L index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/cathey191/shoppingList.git"
+	},
+	"keywords": ["node", "server", "shopping"],
+	"author": "Catherine Clague",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/cathey191/shoppingList/issues"
+	},
+	"homepage": "https://github.com/cathey191/shoppingList#readme"
+}
